@@ -1,16 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Saneamiento Ambiental</title>
 </head>
+
 <body>
+    <!-- Barra superior de contacto -->
+    <div class="top-bar">
+        <div class="contact-info">
+            <div class="contain-icon">
+                <div class="icon-i">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div class="item">
+                    <span>comercial@ecotechperu.com</span>
+                    <strong>Correo Electrónico</strong>
+                </div>
+            </div>
+            <div class="contain-icon">
+                <div class="icon-i">
+                    <i class='bx bx-time'></i>
+                </div>
+                <div class="item">
+                    <span>8:00 A.M - 6:00 P.M</span>
+                    <strong>Horario</strong>
+                </div>
+            </div>
+            <div class="contain-icon">
+                <div class="icon-i">
+                    <i class='bx bx-phone'></i>
+                </div>
+                <div class="item">
+                    <span>949197827 / 934277500</span>
+                    <strong>Celular</strong>
+                </div>
+            </div>
+            <div class="contain-icon">
+                <div class="icon-i">
+                    <i class='bx bx-map'></i>
+                </div>
+                <div class="item">
+                    <span>Calle Nevado Sara Sara Nro. 115,<br> San Miguel - Lima</span>
+                    <strong>Ubicación</strong>
+                </div>
+            </div>
+        </div>
+    </div>
     <header>
-        <ul>
-            <li>Inicio</li>
-        </ul>
+        <nav class="nav-container">
+            <figure class="nav-image">
+                <a href="index.html"><img src="img/logo-1.png" alt="" class="nav-logo"></a>
+            </figure>
+            <label class="nav-toggle">
+                <input type="checkbox" id="menu-input" class="nav-input">
+            </label>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="nosotros.html" class="nav-link">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav-button">
+                <a
+                    href="https://wa.me/51949197827?text=Hola!%20Me%20gustar%C3%ADa%20informaci%C3%B3n%20de%20tus%20servicios.">
+                    <button class="">Contáctanos</button>
+                </a>
+            </div>
+        </nav>
     </header>
+    <nav class="container-banner">
+        <div class="banner-inf">
+            <h2>Una Empresa<br> Socialmente<br> Responsable</h2>
+            <p>Innovamos en estrategias corporativas para enfrentar 
+                los desafíos del mundo actual. Somos líderes en saneamiento 
+                ambiental y gestión integral de instalaciones, ofreciendo 
+                productos y servicios de calidad, con experiencia, seguridad y 
+                el mejor equipo.</p>
+            <a href=""><p>Ver más <i class='bx bx-right-arrow-alt bx-fade-left' ></i></p></a>
+        </div>
+    </nav>
+    <div class="contact">
+        <div class="title-contact">
+            <h2>¡Obtén tu cotización gratis ahora!</h2>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Nombres" required>
+            <input type="text" placeholder="Correo Electrónico" required>
+            <select id="servicios" name="servicio" required>
+                <option value="" selected disabled hidden>Seleccione un servicio</option>
+                <option value="limpieza">Limpieza integral de toda clase de instalaciones</option>
+                <option value="limpieza">Limpieza de lunas y fachadas en altura</option>
+                <option value="limpieza">Saneamiento ambiental y control integral de plagas</option>
+                <option value="limpieza">Fumigación</option>
+            </select>
+            <button class="">Reservar Cita</button>
+        </form>
+    </div>
+    <div class="empresas-icon">
+        <ul>
+            <li>
+                <img src="img/cliente-1.png" alt="">
+            </li>
+            <li>
+                <img src="img/cliente-2.png" alt="">
+            </li>
+            <li>
+                <img src="img/cliente-3.png" alt="">
+            </li>
+            <li>
+                <img src="img/cliente-4.png" alt="">
+            </li>
+            <li>
+                <img src="img/cliente-5.png" alt="">
+            </li>
+        </ul>
+        <figure>
+            <img src="img/img-2.png" alt="">
+        </figure>
+    </div>
 </body>
+
 </html>
