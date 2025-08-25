@@ -9,132 +9,58 @@
     <link rel="stylesheet" href="style.css">
     <title>Saneamiento Ambiental</title>
 </head>
-
 <body>
-    <!-- Barra superior de contacto -->
-    <div class="top-bar">
-        <div class="contact-info">
-            <div class="contain-icon">
-                <div class="icon-i">
-                    <i class='bx bx-envelope'></i>
-                </div>
-                <div class="item">
-                    <span>comercial@ecotechperu.com</span>
-                    <strong>Correo Electrónico</strong>
-                </div>
-            </div>
-            <div class="contain-icon">
-                <div class="icon-i">
-                    <i class='bx bx-time'></i>
-                </div>
-                <div class="item">
-                    <span>8:00 A.M - 6:00 P.M</span>
-                    <strong>Horario</strong>
-                </div>
-            </div>
-            <div class="contain-icon">
-                <div class="icon-i">
-                    <i class='bx bx-phone'></i>
-                </div>
-                <div class="item">
-                    <span>949197827 / 934277500</span>
-                    <strong>Celular</strong>
-                </div>
-            </div>
-            <div class="contain-icon">
-                <div class="icon-i">
-                    <i class='bx bx-map'></i>
-                </div>
-                <div class="item">
-                    <span>Calle Nevado Sara Sara Nro. 115,<br> San Miguel - Lima</span>
-                    <strong>Ubicación</strong>
-                </div>
-            </div>
-        </div>
-    </div>
     <header>
-        <nav class="nav-container">
-            <figure class="nav-image">
-                <a href="index.html"><img src="img/logo-1.png" alt="" class="nav-logo"></a>
-            </figure>
-            <label class="nav-toggle">
-                <input type="checkbox" id="menu-input" class="nav-input">
-            </label>
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="menu.html" class="nav-link">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a href="nosotros.html" class="nav-link">Galería</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contacto.html" class="nav-link">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contacto.html" class="nav-link">Contacto</a>
-                </li>
-            </ul>
-            <div class="nav-button">
-                <a
-                    href="https://wa.me/51949197827?text=Hola!%20Me%20gustar%C3%ADa%20informaci%C3%B3n%20de%20tus%20servicios.">
-                    <button class="">Contáctanos</button>
-                </a>
+        <div class="container">
+            <div class="top-bar">
+                <div class="redes-sociales">
+                    <div class="title-redes">
+                        <p>Redes Sociales:</p>
+                    </div>
+                    <div class="icons-redes">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="info-top">
+                    <div style="border-left: 1px solid #ffffff59; height: 25px; margin: 0 10px;"></div>
+                    <div class="inf-address">
+                        <i class='bx bxs-map'></i>
+                        <span>Calle. Nevado Sara Sara Nro.<br> 115, San Miguel – Lima</span>
+                    </div>
+                    <div style="border-left: 1px solid #ffffff59; height: 25px; margin: 0 10px;"></div>
+                    <div class="inf-email">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>comercial@ecotechperu.com</span>
+                    </div>
+                </div>
             </div>
-        </nav>
+            <div class="container-header">
+                <div class="logo">
+                    <img src="img/logo-1.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#about">Galería</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="contact-header">
+                    <i class='bx bx-conversation'></i>
+                    <div class="inf-contact">
+                        <span>Contáctanos</span>
+                        <span>949 197 827</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </header>
-    <nav class="container-banner">
-        <div class="banner-inf">
-            <h2>Una Empresa<br> Socialmente<br> Responsable</h2>
-            <p>Innovamos en estrategias corporativas para enfrentar 
-                los desafíos del mundo actual. Somos líderes en saneamiento 
-                ambiental y gestión integral de instalaciones, ofreciendo 
-                productos y servicios de calidad, con experiencia, seguridad y 
-                el mejor equipo.</p>
-            <a href=""><p>Ver más <i class='bx bx-right-arrow-alt bx-fade-left' ></i></p></a>
-        </div>
-    </nav>
-    <div class="contact">
-        <div class="title-contact">
-            <h2>¡Obtén tu cotización gratis ahora!</h2>
-        </div>
-        <form action="">
-            <input type="text" placeholder="Nombres" required>
-            <input type="text" placeholder="Correo Electrónico" required>
-            <select id="servicios" name="servicio" required>
-                <option value="" selected disabled hidden>Seleccione un servicio</option>
-                <option value="limpieza">Limpieza integral de toda clase de instalaciones</option>
-                <option value="limpieza">Limpieza de lunas y fachadas en altura</option>
-                <option value="limpieza">Saneamiento ambiental y control integral de plagas</option>
-                <option value="limpieza">Fumigación</option>
-            </select>
-            <button class="">Reservar Cita</button>
-        </form>
-    </div>
-    <div class="empresas-icon">
-        <ul>
-            <li>
-                <img src="img/cliente-1.png" alt="">
-            </li>
-            <li>
-                <img src="img/cliente-2.png" alt="">
-            </li>
-            <li>
-                <img src="img/cliente-3.png" alt="">
-            </li>
-            <li>
-                <img src="img/cliente-4.png" alt="">
-            </li>
-            <li>
-                <img src="img/cliente-5.png" alt="">
-            </li>
-        </ul>
-        <figure>
-            <img src="img/img-2.png" alt="">
-        </figure>
-    </div>
 </body>
 
 </html>
